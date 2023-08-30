@@ -1,7 +1,7 @@
 <div align="center">
 
 # Personal AI Assistant
-_A AI Assistant bot with Bing AI ( using [EdgeGPT](https://github.com/acheong08/EdgeGPT) API )_
+_AI Assistant bot with Bing AI ( using [EdgeGPT](https://github.com/acheong08/EdgeGPT) API )_
 
 
 </div>
@@ -36,8 +36,7 @@ PS: Everyone can access Bing AI for chat now, even anonymous users.
 <details>
   <summary>
 
-### Getting authentication (Optional)
-PS: This column is needed by image creator, or ask more questions and have longer conversations
+### Getting authentication (Mandatory)
 
   </summary>
 
