@@ -1,6 +1,7 @@
-tkinter
+tk
 ttkthemes
-speech_recognition
+speechrecognition
 pyttsx3
 EdgeGPT
 Pillow
+emoji
