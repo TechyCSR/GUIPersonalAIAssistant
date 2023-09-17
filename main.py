@@ -256,7 +256,7 @@ def resize_gif(image_path, output_path, size=(320, 240)):
 def thumbnails(frames, size):
     for frame in frames:
         thumbnail = frame.copy()
-        thumbnail.thumbnail(size, Image.ANTIALIAS)
+        thumbnail.thumbnail(size, Image.LANCZOS )
         yield thumbnail
 
 def display_images(prompt, num):
@@ -299,7 +299,7 @@ def display_images(prompt, num):
                 image_label.load(resized_gif_path)
             else:
                 image = Image.open(image_path)
-                image = image.resize((250, 200), Image.ANTIALIAS)
+                image = image.resize((250, 200), Image.LANCZOS )
                 photo = ImageTk.PhotoImage(image)
 
                 image_label = tk.Label(image_frame, image=photo, bd=2, relief=tk.SOLID)
